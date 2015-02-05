@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Manually run the unix maintenance scripts
+sudo periodic daily weekly monthly
+
+# Run OSX update
+sudo softwareupdate -i -a
+
+# Homebrew
+brew update
+brew upgrade
+brew cleanup
+brew cask cleanup
+
+# Apps that require manual poining and clicking
+open /Applications/Utilities/Disk\ Utility.app
+open /Applications/App\ Store.app
+open /Applications/CleanMyMac\ 2.app

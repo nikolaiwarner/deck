@@ -1,0 +1,17 @@
+#!/bin/sh
+
+mkdir -p ~/repositories/nikolaiwarner
+mkdir -p ~/repositories/other
+
+if [ ! -f ~/.laptop.local ]; then
+  # Initial bootstrapping with https://github.com/thoughtbot/laptop
+  cp .laptop.local ~/.laptop.local
+  cd ~/repositories/other
+  curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+  sh mac 2>&1 | tee ~/laptop.log
+else
+  cd ~/repositories/nikolaiwarner/deck
+  git pull
+  cp mac/.laptop.local ~/.laptop.local
+  ~/repositories/other/laptop/mac
+fi

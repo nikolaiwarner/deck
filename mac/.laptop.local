@@ -1,0 +1,41 @@
+#!/bin/sh
+
+git clone https://github.com/thoughtbot/laptop.git ~/repositories/other/laptop
+git clone https://github.com/nikolaiwarner/deck.git ~/repositories/nikolaiwarner/deck
+
+chmod +x ~/repositories/other/laptop/mac
+chmod +x ~/repositories/nikolaiwarner/deck/mac/update.sh
+
+brew_tap 'caskroom/cask'
+brew_install_or_upgrade 'brew-cask'
+
+brew cask install dropbox
+brew cask install google-chrome
+brew cask install google-drive
+brew cask install google-plus-auto-backup
+brew cask install chrome-remote-desktop-host
+brew cask install chromecast
+brew cask install atom
+brew cask install 1password
+brew cask install todoist
+brew cask install adobe-creative-cloud
+brew cask install cleanmymac
+brew cask install steam
+brew cask install openemu
+brew cask install crashplan
+brew cask install slack
+brew cask install github
+brew cask install caffeine
+brew cask install flux
+brew cask install balsamiq-mockups
+brew cask install bettertouchtool
+brew cask install coconutbattery
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install pd-extended
+brew cask install vlc
+brew cask install transmit
+brew cask install unity
+brew cask install java
+brew cask install intel-haxm
+brew cask install android-file-transfer
