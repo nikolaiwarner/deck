@@ -4,7 +4,8 @@ git clone https://github.com/thoughtbot/laptop.git ~/repositories/other/laptop
 git clone https://github.com/nikolaiwarner/deck.git ~/repositories/nikolaiwarner/deck
 
 chmod +x ~/repositories/other/laptop/mac
-chmod +x ~/repositories/nikolaiwarner/deck/mac/update.sh
+chmod +x ~/repositories/nikolaiwarner/deck/mac/install
+chmod +x ~/repositories/nikolaiwarner/deck/mac/update
 
 brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
