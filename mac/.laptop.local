@@ -40,3 +40,5 @@ brew cask install unity
 brew cask install java
 brew cask install intel-haxm
 brew cask install android-file-transfer
+brew cask install flash
+brew cask install radiant-player
