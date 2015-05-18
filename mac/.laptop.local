@@ -42,3 +42,8 @@ brew cask install intel-haxm
 brew cask install android-file-transfer
 brew cask install flash
 brew cask install radiant-player
+brew cask install macdown
+brew cask install audacity
+brew cask install charles
+brew cask install streakerbar
+brew cask install screenhero
