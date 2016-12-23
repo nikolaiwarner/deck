@@ -16,5 +16,4 @@ brew doctor
 # Apps that require manual poining and clicking
 open /Applications/Utilities/Disk\ Utility.app
 open /Applications/App\ Store.app
-open /Applications/CleanMyMac\ 2.app
-
+open /Applications/CleanMyMac\ 3.app
