@@ -7,12 +7,11 @@ chmod +x ~/repositories/other/laptop/mac
 chmod +x ~/repositories/nikolaiwarner/deck/mac/install
 chmod +x ~/repositories/nikolaiwarner/deck/mac/update
 
-brew_tap 'caskroom/cask'
-brew_install_or_upgrade 'brew-cask'
+yarn global add git-standup
 
+brew cask install firefox
 brew cask install google-chrome
-brew cask install google-drive
-brew cask install google-plus-auto-backup
+brew cask install google-backup-and-sync
 brew cask install chrome-remote-desktop-host
 brew cask install atom
 brew cask install 1password
@@ -23,7 +22,6 @@ brew cask install openemu
 brew cask install crashplan
 brew cask install github-desktop
 brew cask install caffeine
-brew cask install flux
 brew cask install balsamiq-mockups
 brew cask install coconutbattery
 brew cask install virtualbox
@@ -33,10 +31,12 @@ brew cask install transmit
 brew cask install unity
 brew cask install java
 brew cask install android-studio
+brew cask install androidtool
 brew cask install macdown
 brew cask install audacity
-brew cask install screenhero
 brew cask install skype
 brew cask install xquartz
 brew cask install deluge
 brew cask install etcher
+brew cask install franz
+brew cask install itsycal
