@@ -4,11 +4,11 @@
 sudo periodic daily weekly monthly
 
 # Run OSX update
-sudo softwareupdate -i -a
+sudo softwareupdate -i -a --restart
 
 # Homebrew
 brew update
-brew upgrade --all
+brew upgrade
 brew cleanup
 brew cask cleanup
 brew doctor
@@ -17,3 +17,4 @@ brew doctor
 open /Applications/Utilities/Disk\ Utility.app
 open /Applications/App\ Store.app
 open /Applications/CleanMyMac\ 3.app
+
