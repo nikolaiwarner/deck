@@ -40,3 +40,5 @@ brew cask install deluge
 brew cask install etcher
 brew cask install franz
 brew cask install itsycal
+brew cask install rocket
+
