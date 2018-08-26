@@ -10,7 +10,6 @@ sudo softwareupdate -i -a --restart
 brew update
 brew upgrade
 brew cleanup
-brew cask cleanup
 brew doctor
 
 # Apps that require manual poining and clicking
