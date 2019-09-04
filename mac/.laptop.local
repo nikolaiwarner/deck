@@ -13,13 +13,12 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install google-backup-and-sync
 brew cask install chrome-remote-desktop-host
-brew cask install atom
+brew cask install vscode
 brew cask install 1password
 brew cask install adobe-creative-cloud
 brew cask install cleanmymac
 brew cask install steam
 brew cask install openemu
-brew cask install crashplan
 brew cask install github-desktop
 brew cask install caffeine
 brew cask install balsamiq-mockups
@@ -34,11 +33,7 @@ brew cask install android-studio
 brew cask install androidtool
 brew cask install macdown
 brew cask install audacity
-brew cask install skype
-brew cask install xquartz
-brew cask install deluge
-brew cask install etcher
-brew cask install franz
 brew cask install itsycal
 brew cask install rocket
+brew cask install spotify
 
