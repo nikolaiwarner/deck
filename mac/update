@@ -16,3 +16,4 @@ brew doctor
 open /System/Applications/Utilities/Disk\ Utility.app
 open /System/Applications/App\ Store.app
 open /Applications/CleanMyMac\ X.app
+open /Applications/BitdefenderVirusScanner.app
