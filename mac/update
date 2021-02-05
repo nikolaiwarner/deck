@@ -1,13 +1,12 @@
 #!/bin/sh
 
-# Manually run the unix maintenance scripts
-sudo periodic daily weekly monthly
+# Get sudo for later
+sudo echo "Let's update!"
 
-# Run OSX update
-sudo softwareupdate -i -a --restart
+# Run mac cleanup script, includes `homebrew update`: https://github.com/fwartner/homebrew-mac-cleanup
+cleanup
 
-# Homebrew
-brew update
+# Extra Homebrew steps
 brew upgrade
 brew cleanup
 brew doctor
@@ -17,3 +16,9 @@ open /System/Applications/Utilities/Disk\ Utility.app
 open /System/Applications/App\ Store.app
 open /Applications/CleanMyMac\ X.app
 open /Applications/BitdefenderVirusScanner.app
+
+# Manually run the unix maintenance scripts
+sudo periodic daily weekly monthly
+
+# Run OSX update
+sudo softwareupdate -i -a --restart
