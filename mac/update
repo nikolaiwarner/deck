@@ -4,7 +4,7 @@
 sudo echo "Let's update!"
 
 # Run mac cleanup script, includes `homebrew update`: https://github.com/fwartner/homebrew-mac-cleanup
-cleanup
+mac-cleanup
 
 # Extra Homebrew steps
 brew upgrade
